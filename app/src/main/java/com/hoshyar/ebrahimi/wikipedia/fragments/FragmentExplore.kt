@@ -120,21 +120,6 @@ class FragmentExplore : Fragment() , ItemEvents {
 			binding.recyclerExplore.layoutManager =
 				 LinearLayoutManager(context , RecyclerView.VERTICAL , false)
 			binding.recyclerExplore.adapter = myAdapter
-			
-			
-			///////// search   ------------------------------------
-			// filter data ...
-//			binding.etMainSearch.addTextChangedListener { editTextInput ->
-//				 if (editTextInput!!.isNotEmpty()) {
-//						val cloneExploreData = dataExplore.clone() as ArrayList<ItemPost>
-//						val filteredExploreData = cloneExploreData.filter { itemPost ->
-//							 (itemPost.txtTitle.contains(editTextInput))
-//						}
-//						myAdapter.setData(filteredExploreData as ArrayList<ItemPost>)
-//				 } else {
-//						myAdapter.setData(dataExplore.clone() as ArrayList<ItemPost>)
-//				 }
-//			}
 	 }
 	 
 	 override fun onItemClicked(itemPost: ItemPost) {

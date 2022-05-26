@@ -142,18 +142,7 @@ class MainActivity : AppCompatActivity() {
 			}
 			binding.bottomNavigationViewMain.setOnItemReselectedListener {}
 			
-			
-//			// -------------------------------------- search
-//			Log.v("work" , "now working")
-//			if(binding.etMainSearch.text != null) {
-//				 binding.etMainSearch.addTextChangedListener { _ ->
-//						val etSerchText = binding.etMainSearch.text.toString()
-//						val bundle = Bundle()
-//						bundle.putString(SEND_ETSEARCHTEXT , etSerchText)
-//						val fragmentExplore = FragmentExplore()
-//						fragmentExplore.arguments = bundle
-//				 }
-//			}
+
 	 }
 	 
 	 override fun onCreateOptionsMenu(menu: Menu?): Boolean {
